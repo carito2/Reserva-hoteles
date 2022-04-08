@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  line-height: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+h4,
+label {
+  font-weight: 600;
+}
+
+.App {
+  background-image: url("https://www.expreso.info/files/2020-04/Viaje_Combinado.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+.icons {
+  background-color: #eb6d7f;
+  height: 32px;
+  padding: 5px;
+}
+
+.iconsReset {
+  height: 16px;
+}
+
+.searchContainer {
+  align-items: center;
+  background-color: #eb6d7fb3;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 5px;
+  width: 30%;
+}
+
+.filterResults > p {
+  font-weight: 600;
+}
+
+.pageFilters {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.dateFilters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.dateFilters > label {
+  display: flex;
+  flex-flow: column;
+}
+
+.inputDate {
+  border: none;
+  border-radius: 10px;
+  color: #434b4d;
+  margin: 5px;
+  padding: 10px 5px;
+}
+
+.selectionFilters {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  padding: 10px 0px;
+}
+
+.selectionFilters > label {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+select {
+  border: none;
+  border-radius: 10px;
+  color: #434b4d;
+  margin: 5px;
+  padding: 10px 10px;
+  text-align-last: center;
+  width: 100%;
+}
+
+.resetFilters {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.hotelResults {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100%;
+  overflow-y: scroll;
+  width: 70%;
+}
+
+.hotelContainer {
+  background-color: #f8cdaab3;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: -1px -1px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: -1px -1px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: -1px -1px 20px 0px rgba(50, 50, 50, 0.75);
+  margin: 10px 10px;
+  padding: 10px;
+  width: 45%;
+}
+
+.hotelPhoto {
+  width: 100%;
+}
+
+.availability {
+  background-color: #eb6d7f;
+  padding: 5px 5px;
+}
+
+.dateAvailability :first-child {
+  margin-bottom: 5px;
+}
+
+.hotelDescription {
+  height: 80px;
+  margin: 10px 0px;
+  overflow-y: scroll;
+  text-align: justify;
+}
+
+.location {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  margin: 10px 0px;
+}
+
+.hotelCharacteristics {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hotelRoooms {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 5px 0px;
+  width: 60%;
+}
+
+.hotelPrice {
+  background-color: #eb6d7f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
+  padding: 8px;
+  width: 30%;
+}
+
+.bookHotel {
+  background-color: #eb6d7f;
+  border: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.priceOn {
+  height: 18px;
+}
+
+.priceOff {
+  height: 18px;
+  opacity: 0.4;
+}
+
+.noResults {
+  background-color: #d57a71b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5%;
+}
+
+.imageNoResults {
+  height: 40%;
+  width: 40%;
+}
+
+.infoNoResults {
+  color: #ffffff;
+}
